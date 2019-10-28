@@ -16,7 +16,8 @@
   },
   
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "*://alpha.iodide.io/*"
  ]
 
 }
