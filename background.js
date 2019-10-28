@@ -5,3 +5,13 @@ browser.contextMenus.create({
 });
 
 
+browser.contextMenus.onClicked.addListener(
+  async function(info, tab) {
+    console.log(info) 
+    const file = await fetch(info.linkUrl).then(r => r.text())
+
+    console.log(file)
+
+  }
+);
+

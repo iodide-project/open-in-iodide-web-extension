@@ -10,13 +10,6 @@
     "48": "icons/logo.png"
   },
 
-  // "content_scripts": [
-  //   {
-  //     "matches": ["*://*/*"],
-  //     "js": ["background.js"]
-  //   }
-  // ],
-
 
   "background": {
     "scripts": ["background.js"]
